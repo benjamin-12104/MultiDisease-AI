@@ -1,5 +1,5 @@
 # MultiDisease AI 
-### MultiDisease AI - An AI-Powered Multi-Disease Risk Prediction System
+### MultiDisease AI: AI-Powered Multi-Disease Risk Prediction System
 
 
 1. A web application that uses Machine Learning to predict the risk of **Diabetes, Heart Disease, and Chronic Kidney Disease** based on health information provided by the user.
