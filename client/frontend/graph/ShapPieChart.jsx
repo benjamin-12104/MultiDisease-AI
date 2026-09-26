@@ -38,7 +38,7 @@ function ShapPieChart({ factors }) {
     <div className="w-full h-112.5 bg-white rounded shadow p-6">
 
       <h2 className="text-xl font-bold mb-2">
-        SHAP Impact Distribution
+        Risk Factors Breakdown
       </h2>
 
       <p className="text-sm text-gray-500 mb-4">
@@ -54,9 +54,9 @@ function ShapPieChart({ factors }) {
             nameKey="name"
             cx="50%"
             cy="50%"
-            outerRadius={130}
+            outerRadius={100}
             label={({ name, percent }) =>
-              `${name}: ${(percent * 100).toFixed(1)}%`
+              `${(percent * 100).toFixed(1)}%`
             }
           >
 
@@ -67,7 +67,7 @@ function ShapPieChart({ factors }) {
 
           <Tooltip
             formatter={(value) =>
-              Number(value).toFixed(4)
+              Number(value).toFixed(3)
             }
           />
 

@@ -128,7 +128,7 @@ export default function HeartPage() {
                   disabled={loading}
                   className="flex-1 bg-red-600 text-white py-3 px-6 rounded-lg font-medium hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
                 >
-                  {loading ? "Predicting..." : "Predict Heart Disease Risk"}
+                  {loading ? "Predicting..." : "Predict"}
                 </button>
                 <button
                   type="button"

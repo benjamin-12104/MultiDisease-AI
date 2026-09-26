@@ -260,13 +260,13 @@ export default function KidneyPage() {
                 </div>
               )}
 
-              <div className="flex flex-col sm:flex-row gap-4 pt-6 mt-6 border-t border-gray-100">
+              <div className="flex gap-4 pt-6 mt-6 border-t border-gray-100">
                 <button
                   type="submit"
                   disabled={loading || !allFieldsValid()}
-                  className="flex-1 bg-indigo-600 text-white py-3 px-6 rounded-lg font-medium hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
+                  className="flex-1 bg-red-600 text-white py-3 px-6 rounded-lg font-medium hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
                 >
-                  {loading ? "Predicting..." : "Predict Kidney Disease Risk"}
+                  {loading ? "Predicting..." : "Predict"}
                 </button>
                 <button
                   type="button"
